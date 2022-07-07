@@ -4,7 +4,7 @@ import path from "path";
 import { MongoClient } from "mongodb";
 
 const app = express();
-const PORT = 1002;
+const PORT = 1026;
 const mongo_url = 'mongodb+srv://minchan50:minchan12@cluster0.awsg0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const client = new MongoClient(mongo_url);
 
